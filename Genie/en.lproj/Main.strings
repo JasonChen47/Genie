@@ -1,0 +1,384 @@
+
+/* Class = "UIViewController"; title = "Wisher"; ObjectID = "11V-hG-2jH"; */
+"11V-hG-2jH.title" = "Wisher";
+
+/* Class = "UILabel"; text = "47"; ObjectID = "2RA-cj-DdS"; */
+"2RA-cj-DdS.text" = "47";
+
+/* Class = "UILabel"; text = "Cameron Steward"; ObjectID = "33i-yk-BEb"; */
+"33i-yk-BEb.text" = "Cameron Steward";
+
+/* Class = "UILabel"; text = "Anything that can help your genie grant your wish"; ObjectID = "47U-zP-ufk"; */
+"47U-zP-ufk.text" = "Anything that can help your genie grant your wish";
+
+/* Class = "UIButton"; configuration.title = "I wish I could fly"; ObjectID = "4Fg-sq-gNe"; */
+"4Fg-sq-gNe.configuration.title" = "I wish I could fly";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4Fg-sq-gNe"; */
+"4Fg-sq-gNe.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4Kn-z6-NdD"; */
+"4Kn-z6-NdD.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "About"; ObjectID = "5Vr-rf-10r"; */
+"5Vr-rf-10r.configuration.title" = "About";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5Vr-rf-10r"; */
+"5Vr-rf-10r.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "5kP-sE-mD2"; */
+"5kP-sE-mD2.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "Granting Wish"; ObjectID = "6SM-Ez-ePh"; */
+"6SM-Ez-ePh.text" = "Granting Wish";
+
+/* Class = "UIViewController"; title = "Search"; ObjectID = "6dc-f6-pG6"; */
+"6dc-f6-pG6.title" = "Search";
+
+/* Class = "UILabel"; text = "Grants granted: 44"; ObjectID = "6hT-Ct-RmA"; */
+"6hT-Ct-RmA.text" = "Grants granted: 44";
+
+/* Class = "UILabel"; text = "Upvote the wishes or grants you like"; ObjectID = "7Eu-ZF-QRW"; */
+"7Eu-ZF-QRW.text" = "Upvote the wishes or grants you like";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "81w-ws-yha"; */
+"81w-ws-yha.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "2 hours ago"; ObjectID = "9bK-PR-TQD"; */
+"9bK-PR-TQD.text" = "2 hours ago";
+
+/* Class = "UILabel"; text = "Please don't troll!"; ObjectID = "AMf-bg-J8W"; */
+"AMf-bg-J8W.text" = "Please don't troll!";
+
+/* Class = "UILabel"; text = "Cameron Steward"; ObjectID = "B6C-eJ-BCW"; */
+"B6C-eJ-BCW.text" = "Cameron Steward";
+
+/* Class = "UILabel"; text = "An innovator, problem-solver, or just someone with a good heart - grant some wishes"; ObjectID = "CoS-rq-70K"; */
+"CoS-rq-70K.text" = "An innovator, problem-solver, or just someone with a good heart - grant some wishes";
+
+/* Class = "UILabel"; text = "This app relies on honest wishes and honest grants. "; ObjectID = "Cqm-76-rvp"; */
+"Cqm-76-rvp.text" = "This app relies on honest wishes and honest grants. ";
+
+/* Class = "UIButton"; configuration.title = "About"; ObjectID = "CsN-xG-gYe"; */
+"CsN-xG-gYe.configuration.title" = "About";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "CsN-xG-gYe"; */
+"CsN-xG-gYe.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "I wish I could fly"; ObjectID = "Eme-m7-PKs"; */
+"Eme-m7-PKs.configuration.title" = "I wish I could fly";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Eme-m7-PKs"; */
+"Eme-m7-PKs.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Grant Wish!"; ObjectID = "GrP-cd-1AU"; */
+"GrP-cd-1AU.configuration.title" = "Grant Wish!";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GrP-cd-1AU"; */
+"GrP-cd-1AU.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Search"; ObjectID = "HAX-E5-fgm"; */
+"HAX-E5-fgm.text" = "Search";
+
+/* Class = "UIButton"; configuration.title = "I wish I could fly"; ObjectID = "HBW-Qk-4ev"; */
+"HBW-Qk-4ev.configuration.title" = "I wish I could fly";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HBW-Qk-4ev"; */
+"HBW-Qk-4ev.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Need an account? Sign up"; ObjectID = "HRM-lA-XyL"; */
+"HRM-lA-XyL.configuration.title" = "Need an account? Sign up";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HRM-lA-XyL"; */
+"HRM-lA-XyL.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Robert Robertson"; ObjectID = "HZb-wf-99R"; */
+"HZb-wf-99R.text" = "Robert Robertson";
+
+/* Class = "UILabel"; text = "The goal of this app is to connect innovators better to global needs and identify the most pressing issues in their field"; ObjectID = "ICH-jE-q8D"; */
+"ICH-jE-q8D.text" = "The goal of this app is to connect innovators better to global needs and identify the most pressing issues in their field";
+
+/* Class = "UILabel"; text = "47"; ObjectID = "IJW-qH-qd4"; */
+"IJW-qH-qd4.text" = "47";
+
+/* Class = "UILabel"; text = "Blue = Waiting for response\nTeal = Genie saved wish\nGreen = Wish granted"; ObjectID = "ING-K1-F4P"; */
+"ING-K1-F4P.text" = "Blue = Waiting for response\nTeal = Genie saved wish\nGreen = Wish granted";
+
+/* Class = "UILabel"; text = "Sending Wish"; ObjectID = "J0H-Dk-9Kk"; */
+"J0H-Dk-9Kk.text" = "Sending Wish";
+
+/* Class = "UILabel"; text = "8563"; ObjectID = "JOE-95-7Z1"; */
+"JOE-95-7Z1.text" = "8563";
+
+/* Class = "UIButton"; configuration.title = "Upload image"; ObjectID = "JcP-gn-2SY"; */
+"JcP-gn-2SY.configuration.title" = "Upload image";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JcP-gn-2SY"; */
+"JcP-gn-2SY.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Choose a wish to grant"; ObjectID = "KMj-lS-qL7"; */
+"KMj-lS-qL7.text" = "Choose a wish to grant";
+
+/* Class = "UILabel"; text = "Sed affert delenit ea. Nam at ferri facete inermis. Eum dicta fuisset phaedrum ei, et amet iuvaret vituperatoribus vix."; ObjectID = "L15-UU-EmX"; */
+"L15-UU-EmX.text" = "Sed affert delenit ea. Nam at ferri facete inermis. Eum dicta fuisset phaedrum ei, et amet iuvaret vituperatoribus vix.";
+
+/* Class = "UILabel"; text = "Wishes remaining: 3"; ObjectID = "LEe-F2-nhO"; */
+"LEe-F2-nhO.text" = "Wishes remaining: 3";
+
+/* Class = "UILabel"; text = "2 hours ago"; ObjectID = "MBb-eh-3hU"; */
+"MBb-eh-3hU.text" = "2 hours ago";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "MNJ-aG-fzM"; */
+"MNJ-aG-fzM.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Go ahead and wish another wish if you still have one left"; ObjectID = "MYQ-VL-mcA"; */
+"MYQ-VL-mcA.text" = "Go ahead and wish another wish if you still have one left";
+
+/* Class = "UILabel"; text = "47"; ObjectID = "Ngg-9r-QGM"; */
+"Ngg-9r-QGM.text" = "47";
+
+/* Class = "UITabBarItem"; title = "Wisher"; ObjectID = "Nr9-Ux-dIW"; */
+"Nr9-Ux-dIW.title" = "Wisher";
+
+/* Class = "UILabel"; text = "Be a genie"; ObjectID = "OC2-Qe-O5J"; */
+"OC2-Qe-O5J.text" = "Be a genie";
+
+/* Class = "UIButton"; configuration.title = "Grants"; ObjectID = "OhT-px-zwe"; */
+"OhT-px-zwe.configuration.title" = "Grants";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "OhT-px-zwe"; */
+"OhT-px-zwe.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Blue = Waiting for response\nTeal = Genie saved wish\nGreen = Wish granted"; ObjectID = "PFG-Jy-GKW"; */
+"PFG-Jy-GKW.text" = "Blue = Waiting for response\nTeal = Genie saved wish\nGreen = Wish granted";
+
+/* Class = "UILabel"; text = "Sed affert delenit ea. Nam at ferri facete inermis. Eum dicta fuisset phaedrum ei, et amet iuvaret vituperatoribus vix."; ObjectID = "Q7L-Vh-LUc"; */
+"Q7L-Vh-LUc.text" = "Sed affert delenit ea. Nam at ferri facete inermis. Eum dicta fuisset phaedrum ei, et amet iuvaret vituperatoribus vix.";
+
+/* Class = "UITextField"; placeholder = "Insert wish-granting magic here"; ObjectID = "QHZ-IJ-NfH"; */
+"QHZ-IJ-NfH.placeholder" = "Insert wish-granting magic here";
+
+/* Class = "UILabel"; text = "Comments"; ObjectID = "QQ1-KP-pBv"; */
+"QQ1-KP-pBv.text" = "Comments";
+
+/* Class = "UILabel"; text = "Profile"; ObjectID = "RY5-TR-UK3"; */
+"RY5-TR-UK3.text" = "Profile";
+
+/* Class = "UITabBarItem"; title = "Search"; ObjectID = "RsC-xO-tKt"; */
+"RsC-xO-tKt.title" = "Search";
+
+/* Class = "UITextField"; placeholder = "Confirm password"; ObjectID = "T71-iP-gCe"; */
+"T71-iP-gCe.placeholder" = "Confirm password";
+
+/* Class = "UILabel"; text = "Type your response below"; ObjectID = "TB6-Xv-oFJ"; */
+"TB6-Xv-oFJ.text" = "Type your response below";
+
+/* Class = "UITabBarItem"; title = "Genie"; ObjectID = "TTa-CI-m8A"; */
+"TTa-CI-m8A.title" = "Genie";
+
+/* Class = "UITextField"; placeholder = "Type your wish here"; ObjectID = "X0C-6M-dHl"; */
+"X0C-6M-dHl.placeholder" = "Type your wish here";
+
+/* Class = "UILabel"; text = "Try making it as directly applicable to them as possiible"; ObjectID = "XcJ-Q9-h6O"; */
+"XcJ-Q9-h6O.text" = "Try making it as directly applicable to them as possiible";
+
+/* Class = "UIButton"; configuration.title = "Continue"; ObjectID = "YCd-3f-M0C"; */
+"YCd-3f-M0C.configuration.title" = "Continue";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YCd-3f-M0C"; */
+"YCd-3f-M0C.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "SIGN UP"; ObjectID = "Z8l-xs-EaG"; */
+"Z8l-xs-EaG.text" = "SIGN UP";
+
+/* Class = "UILabel"; text = "I wish..."; ObjectID = "a4Z-Bn-V7N"; */
+"a4Z-Bn-V7N.text" = "I wish...";
+
+/* Class = "UILabel"; text = "Add a picture"; ObjectID = "a6m-2A-vnh"; */
+"a6m-2A-vnh.text" = "Add a picture";
+
+/* Class = "UILabel"; text = "How does this app work? "; ObjectID = "a9Z-4v-vSC"; */
+"a9Z-4v-vSC.text" = "How does this app work? ";
+
+/* Class = "UILabel"; text = "47"; ObjectID = "a9d-42-pNp"; */
+"a9d-42-pNp.text" = "47";
+
+/* Class = "UIButton"; configuration.title = "Send link"; ObjectID = "aSf-wm-zW1"; */
+"aSf-wm-zW1.configuration.title" = "Send link";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aSf-wm-zW1"; */
+"aSf-wm-zW1.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Comment"; ObjectID = "b1O-20-BWc"; */
+"b1O-20-BWc.configuration.title" = "Comment";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "b1O-20-BWc"; */
+"b1O-20-BWc.normalTitle" = "Button";
+
+/* Class = "UIViewController"; title = "Genie"; ObjectID = "b9K-Cn-Xwp"; */
+"b9K-Cn-Xwp.title" = "Genie";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "beG-hn-oiX"; */
+"beG-hn-oiX.title" = "Profile";
+
+/* Class = "UILabel"; text = "And just some details"; ObjectID = "br6-tB-yXs"; */
+"br6-tB-yXs.text" = "And just some details";
+
+/* Class = "UILabel"; text = "Cameron Steward"; ObjectID = "cDe-Go-NLW"; */
+"cDe-Go-NLW.text" = "Cameron Steward";
+
+/* Class = "UIButton"; configuration.title = "About"; ObjectID = "cQh-ww-yKv"; */
+"cQh-ww-yKv.configuration.title" = "About";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cQh-ww-yKv"; */
+"cQh-ww-yKv.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Genie"; ObjectID = "dB5-Jp-hlM"; */
+"dB5-Jp-hlM.text" = "Genie";
+
+/* Class = "UILabel"; text = "Wish Inventory"; ObjectID = "dTK-4r-Ada"; */
+"dTK-4r-Ada.text" = "Wish Inventory";
+
+/* Class = "UIButton"; configuration.title = "Create Account"; ObjectID = "dXC-Th-vNf"; */
+"dXC-Th-vNf.configuration.title" = "Create Account";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dXC-Th-vNf"; */
+"dXC-Th-vNf.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Sed affert delenit ea. Nam at ferri facete inermis. Eum dicta fuisset phaedrum ei, et amet iuvaret vituperatoribus vix."; ObjectID = "dfr-Sf-Fbe"; */
+"dfr-Sf-Fbe.text" = "Sed affert delenit ea. Nam at ferri facete inermis. Eum dicta fuisset phaedrum ei, et amet iuvaret vituperatoribus vix.";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "eJ8-CA-vdk"; */
+"eJ8-CA-vdk.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "eZI-f7-f9o"; */
+"eZI-f7-f9o.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "ehl-ce-cVH"; */
+"ehl-ce-cVH.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Be a wisher"; ObjectID = "eke-p9-Ori"; */
+"eke-p9-Ori.text" = "Be a wisher";
+
+/* Class = "UILabel"; text = "My email: chen.jason.w@gmail.com"; ObjectID = "guI-dU-9Hq"; */
+"guI-dU-9Hq.text" = "My email: chen.jason.w@gmail.com";
+
+/* Class = "UIButton"; configuration.title = "Forgot password?"; ObjectID = "hMh-Zz-nsr"; */
+"hMh-Zz-nsr.configuration.title" = "Forgot password?";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hMh-Zz-nsr"; */
+"hMh-Zz-nsr.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Upvoted wishes are more likely to attract attention from genies. Upvoted grants are more likely to be developed further. "; ObjectID = "i2p-6e-Mej"; */
+"i2p-6e-Mej.text" = "Upvoted wishes are more likely to attract attention from genies. Upvoted grants are more likely to be developed further. ";
+
+/* Class = "UILabel"; text = "47"; ObjectID = "ivg-3A-N2A"; */
+"ivg-3A-N2A.text" = "47";
+
+/* Class = "UIButton"; configuration.title = "About"; ObjectID = "jPE-i5-31V"; */
+"jPE-i5-31V.configuration.title" = "About";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jPE-i5-31V"; */
+"jPE-i5-31V.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Refresh"; ObjectID = "jy8-0O-PHc"; */
+"jy8-0O-PHc.configuration.title" = "Refresh";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jy8-0O-PHc"; */
+"jy8-0O-PHc.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Biography"; ObjectID = "k9l-0s-XMH"; */
+"k9l-0s-XMH.text" = "Biography";
+
+/* Class = "UILabel"; text = "Reset Password"; ObjectID = "l8A-na-EJV"; */
+"l8A-na-EJV.text" = "Reset Password";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "lAX-nj-Nua"; */
+"lAX-nj-Nua.placeholder" = "Password";
+
+/* Class = "UIButton"; configuration.title = "Send to a Genie"; ObjectID = "lap-QO-axM"; */
+"lap-QO-axM.configuration.title" = "Send to a Genie";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lap-QO-axM"; */
+"lap-QO-axM.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Grant Inventory"; ObjectID = "mTn-wl-Qc4"; */
+"mTn-wl-Qc4.text" = "Grant Inventory";
+
+/* Class = "UILabel"; text = "Sed affert delenit ea. Nam at ferri facete inermis. Eum dicta fuisset phaedrum ei, et amet iuvaret vituperatoribus vix."; ObjectID = "mdi-xV-Yr2"; */
+"mdi-xV-Yr2.text" = "Sed affert delenit ea. Nam at ferri facete inermis. Eum dicta fuisset phaedrum ei, et amet iuvaret vituperatoribus vix.";
+
+/* Class = "UILabel"; text = "About"; ObjectID = "msu-WH-cn4"; */
+"msu-WH-cn4.text" = "About";
+
+/* Class = "UILabel"; text = "Think big. And it could be something that helps others also."; ObjectID = "n6C-Hc-AFQ"; */
+"n6C-Hc-AFQ.text" = "Think big. And it could be something that helps others also.";
+
+/* Class = "UITextField"; placeholder = "Add any relevant details here"; ObjectID = "nek-In-7N4"; */
+"nek-In-7N4.placeholder" = "Add any relevant details here";
+
+/* Class = "UILabel"; text = "Wish sent! "; ObjectID = "o0P-jA-RFR"; */
+"o0P-jA-RFR.text" = "Wish sent! ";
+
+/* Class = "UILabel"; text = "2 hours ago"; ObjectID = "ou6-23-dpq"; */
+"ou6-23-dpq.text" = "2 hours ago";
+
+/* Class = "UIViewController"; title = "Profile"; ObjectID = "pGk-2L-adc"; */
+"pGk-2L-adc.title" = "Profile";
+
+/* Class = "UILabel"; text = "SIGN IN"; ObjectID = "pPP-nD-4be"; */
+"pPP-nD-4be.text" = "SIGN IN";
+
+/* Class = "UIButton"; configuration.title = "Already have an account? Sign in."; ObjectID = "pir-am-1m7"; */
+"pir-am-1m7.configuration.title" = "Already have an account? Sign in.";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "pir-am-1m7"; */
+"pir-am-1m7.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Follow"; ObjectID = "pjI-5a-KpO"; */
+"pjI-5a-KpO.configuration.title" = "Follow";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "pjI-5a-KpO"; */
+"pjI-5a-KpO.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Wishes wished: 3"; ObjectID = "qWd-co-6Lg"; */
+"qWd-co-6Lg.text" = "Wishes wished: 3";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "qkE-7V-GPY"; */
+"qkE-7V-GPY.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "I wish I could fly"; ObjectID = "s7O-KX-mYh"; */
+"s7O-KX-mYh.text" = "I wish I could fly";
+
+/* Class = "UILabel"; text = "Want to get in contact? "; ObjectID = "sgr-12-Z2G"; */
+"sgr-12-Z2G.text" = "Want to get in contact? ";
+
+/* Class = "UILabel"; text = "I wish I could fly"; ObjectID = "t2G-gg-AnG"; */
+"t2G-gg-AnG.text" = "I wish I could fly";
+
+/* Class = "UILabel"; text = "I wish I could fly"; ObjectID = "uVe-EW-Nyj"; */
+"uVe-EW-Nyj.text" = "I wish I could fly";
+
+/* Class = "UILabel"; text = "Browse"; ObjectID = "urZ-AB-bDe"; */
+"urZ-AB-bDe.text" = "Browse";
+
+/* Class = "UILabel"; text = "Karma points: 12"; ObjectID = "vMx-Ai-6Po"; */
+"vMx-Ai-6Po.text" = "Karma points: 12";
+
+/* Class = "UILabel"; text = "Wisher"; ObjectID = "vZ5-bB-dWS"; */
+"vZ5-bB-dWS.text" = "Wisher";
+
+/* Class = "UILabel"; text = "Make a wish for something that you want and a “genie” might grant it"; ObjectID = "wGw-SV-Dnx"; */
+"wGw-SV-Dnx.text" = "Make a wish for something that you want and a “genie” might grant it";
+
+/* Class = "UILabel"; text = "8563"; ObjectID = "wcV-JP-ttP"; */
+"wcV-JP-ttP.text" = "8563";
+
+/* Class = "UIButton"; configuration.title = "Wishes"; ObjectID = "xFW-4V-T2p"; */
+"xFW-4V-T2p.configuration.title" = "Wishes";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xFW-4V-T2p"; */
+"xFW-4V-T2p.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Enter the email associated with your account and we'll email you a link to reset your password"; ObjectID = "zOB-BV-BSd"; */
+"zOB-BV-BSd.text" = "Enter the email associated with your account and we'll email you a link to reset your password";

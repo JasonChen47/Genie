@@ -102,7 +102,7 @@
         <!--Genie-->
         <scene sceneID="DCQ-fS-Wsa">
             <objects>
-                <viewController title="Genie" id="b9K-Cn-Xwp" sceneMemberID="viewController">
+                <viewController title="Genie" id="b9K-Cn-Xwp" customClass="GenieViewController" customModule="Genie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w97-rt-jv0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -186,6 +186,12 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Genie" image="wand.and.stars" catalog="system" id="TTa-CI-m8A"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="@IBAction func myUnwindAction(unwindSegue: UIStoryboardSegue)" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="view" destination="w97-rt-jv0" id="J0z-Sw-Cnr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GkA-JF-gXa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -323,6 +329,9 @@
                                 <rect key="frame" x="119" y="754" width="176" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Grant Wish!"/>
+                                <connections>
+                                    <segue destination="8ws-pR-OUX" kind="unwind" unwindAction="myUnwindActionGenieWithUnwindSegue:" id="Vin-41-KeA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="JEF-ZD-hqc"/>
@@ -384,8 +393,9 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="avX-sB-9at" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="8ws-pR-OUX" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2692.753623188406" y="-196.20535714285714"/>
+            <point key="canvasLocation" x="2693" y="-209"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GuV-Zr-xm0">
@@ -938,6 +948,9 @@ Green = Wish granted</string>
                                 <rect key="frame" x="20" y="384" width="374" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Already have an account? Sign in."/>
+                                <connections>
+                                    <segue destination="zdj-AJ-KNd" kind="unwind" unwindAction="myUnwindActionWithUnwindSegue:" id="PqA-ob-Sil"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SIGN UP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z8l-xs-EaG">
                                 <rect key="frame" x="89" y="121" width="237" height="48"/>
@@ -975,6 +988,7 @@ Green = Wish granted</string>
                     <navigationItem key="navigationItem" id="3Hn-U7-MIy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wT0-bY-nk1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="zdj-AJ-KNd" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="656.52173913043487" y="890.625"/>
         </scene>

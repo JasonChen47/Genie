@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func myUnwindAction(unwindSegue: UIStoryboardSegue) {
+    @IBAction func myUnwindActionSignIn(unwindSegue: UIStoryboardSegue) {
         
     }
 

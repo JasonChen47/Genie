@@ -17,6 +17,7 @@
 		F66F01232773CE3E00212E97 /* GenieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F01222773CE3E00212E97 /* GenieTests.swift */; };
 		F66F012D2773CE3E00212E97 /* GenieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F012C2773CE3E00212E97 /* GenieUITests.swift */; };
 		F66F012F2773CE3E00212E97 /* GenieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F012E2773CE3E00212E97 /* GenieUITestsLaunchTests.swift */; };
+		F6D7AEBD278F65B100EEFF49 /* GenieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7AEBC278F65B100EEFF49 /* GenieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F66F01282773CE3E00212E97 /* GenieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66F012C2773CE3E00212E97 /* GenieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenieUITests.swift; sourceTree = "<group>"; };
 		F66F012E2773CE3E00212E97 /* GenieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F6D7AEBC278F65B100EEFF49 /* GenieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				F66F010A2773CE3900212E97 /* SceneDelegate.swift */,
 				F66F010C2773CE3900212E97 /* ViewController.swift */,
 				F66F010E2773CE3900212E97 /* Main.storyboard */,
+				F6D7AEBC278F65B100EEFF49 /* GenieViewController.swift */,
 				F66F01142773CE3E00212E97 /* Assets.xcassets */,
 				F66F01162773CE3E00212E97 /* LaunchScreen.storyboard */,
 				F66F01192773CE3E00212E97 /* Info.plist */,
@@ -263,6 +266,7 @@
 			files = (
 				F66F010D2773CE3900212E97 /* ViewController.swift in Sources */,
 				F66F01092773CE3900212E97 /* AppDelegate.swift in Sources */,
+				F6D7AEBD278F65B100EEFF49 /* GenieViewController.swift in Sources */,
 				F66F01132773CE3900212E97 /* Genie.xcdatamodeld in Sources */,
 				F66F010B2773CE3900212E97 /* SceneDelegate.swift in Sources */,
 			);
