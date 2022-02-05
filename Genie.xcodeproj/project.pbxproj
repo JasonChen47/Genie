@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F66F01092773CE3900212E97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F01082773CE3900212E97 /* AppDelegate.swift */; };
 		F66F010B2773CE3900212E97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F010A2773CE3900212E97 /* SceneDelegate.swift */; };
-		F66F010D2773CE3900212E97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F010C2773CE3900212E97 /* ViewController.swift */; };
+		F66F010D2773CE3900212E97 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F010C2773CE3900212E97 /* SigninViewController.swift */; };
 		F66F01102773CE3900212E97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66F010E2773CE3900212E97 /* Main.storyboard */; };
 		F66F01132773CE3900212E97 /* Genie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F66F01112773CE3900212E97 /* Genie.xcdatamodeld */; };
 		F66F01152773CE3E00212E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66F01142773CE3E00212E97 /* Assets.xcassets */; };
@@ -17,6 +17,17 @@
 		F66F01232773CE3E00212E97 /* GenieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F01222773CE3E00212E97 /* GenieTests.swift */; };
 		F66F012D2773CE3E00212E97 /* GenieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F012C2773CE3E00212E97 /* GenieUITests.swift */; };
 		F66F012F2773CE3E00212E97 /* GenieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66F012E2773CE3E00212E97 /* GenieUITestsLaunchTests.swift */; };
+		F6B2B48F27AED7B500DB2086 /* WishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2B48E27AED7B500DB2086 /* WishViewController.swift */; };
+		F6B2B49127AEE51100DB2086 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6B2B49027AEE51100DB2086 /* GoogleService-Info.plist */; };
+		F6B2B49227AEE51100DB2086 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6B2B49027AEE51100DB2086 /* GoogleService-Info.plist */; };
+		F6B2B49327AEE51100DB2086 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6B2B49027AEE51100DB2086 /* GoogleService-Info.plist */; };
+		F6B2B49627AEED1F00DB2086 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = F6B2B49527AEED1F00DB2086 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		F6B2B49827AEED1F00DB2086 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F6B2B49727AEED1F00DB2086 /* FirebaseAuth */; };
+		F6B2B49A27AEED1F00DB2086 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F6B2B49927AEED1F00DB2086 /* FirebaseDatabase */; };
+		F6B2B49C27AEED1F00DB2086 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = F6B2B49B27AEED1F00DB2086 /* FirebaseFunctions */; };
+		F6B2B49E27AEFFD100DB2086 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2B49D27AEFFD100DB2086 /* SignupViewController.swift */; };
+		F6B2B49F27AEFFD100DB2086 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2B49D27AEFFD100DB2086 /* SignupViewController.swift */; };
+		F6B2B4A027AEFFD100DB2086 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2B49D27AEFFD100DB2086 /* SignupViewController.swift */; };
 		F6D7AEBD278F65B100EEFF49 /* GenieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7AEBC278F65B100EEFF49 /* GenieViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +52,7 @@
 		F66F01052773CE3900212E97 /* Genie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Genie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66F01082773CE3900212E97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F66F010A2773CE3900212E97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F66F010C2773CE3900212E97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F66F010C2773CE3900212E97 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		F66F010F2773CE3900212E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F66F01122773CE3900212E97 /* Genie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Genie.xcdatamodel; sourceTree = "<group>"; };
 		F66F01142773CE3E00212E97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,6 +63,9 @@
 		F66F01282773CE3E00212E97 /* GenieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66F012C2773CE3E00212E97 /* GenieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenieUITests.swift; sourceTree = "<group>"; };
 		F66F012E2773CE3E00212E97 /* GenieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F6B2B48E27AED7B500DB2086 /* WishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishViewController.swift; sourceTree = "<group>"; };
+		F6B2B49027AEE51100DB2086 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F6B2B49D27AEFFD100DB2086 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		F6D7AEBC278F65B100EEFF49 /* GenieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +74,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6B2B49A27AEED1F00DB2086 /* FirebaseDatabase in Frameworks */,
+				F6B2B49627AEED1F00DB2086 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				F6B2B49827AEED1F00DB2086 /* FirebaseAuth in Frameworks */,
+				F6B2B49C27AEED1F00DB2086 /* FirebaseFunctions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,10 +123,13 @@
 			children = (
 				F66F01082773CE3900212E97 /* AppDelegate.swift */,
 				F66F010A2773CE3900212E97 /* SceneDelegate.swift */,
-				F66F010C2773CE3900212E97 /* ViewController.swift */,
+				F66F010C2773CE3900212E97 /* SigninViewController.swift */,
 				F66F010E2773CE3900212E97 /* Main.storyboard */,
+				F6B2B49D27AEFFD100DB2086 /* SignupViewController.swift */,
+				F6B2B48E27AED7B500DB2086 /* WishViewController.swift */,
 				F6D7AEBC278F65B100EEFF49 /* GenieViewController.swift */,
 				F66F01142773CE3E00212E97 /* Assets.xcassets */,
+				F6B2B49027AEE51100DB2086 /* GoogleService-Info.plist */,
 				F66F01162773CE3E00212E97 /* LaunchScreen.storyboard */,
 				F66F01192773CE3E00212E97 /* Info.plist */,
 				F66F01112773CE3900212E97 /* Genie.xcdatamodeld */,
@@ -149,6 +170,12 @@
 			dependencies = (
 			);
 			name = Genie;
+			packageProductDependencies = (
+				F6B2B49527AEED1F00DB2086 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				F6B2B49727AEED1F00DB2086 /* FirebaseAuth */,
+				F6B2B49927AEED1F00DB2086 /* FirebaseDatabase */,
+				F6B2B49B27AEED1F00DB2086 /* FirebaseFunctions */,
+			);
 			productName = Genie;
 			productReference = F66F01052773CE3900212E97 /* Genie.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +248,9 @@
 				Base,
 			);
 			mainGroup = F66F00FC2773CE3800212E97;
+			packageReferences = (
+				F6B2B49427AEED1F00DB2086 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = F66F01062773CE3900212E97 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -238,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F66F01182773CE3E00212E97 /* LaunchScreen.storyboard in Resources */,
+				F6B2B49127AEE51100DB2086 /* GoogleService-Info.plist in Resources */,
 				F66F01152773CE3E00212E97 /* Assets.xcassets in Resources */,
 				F66F01102773CE3900212E97 /* Main.storyboard in Resources */,
 			);
@@ -247,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6B2B49227AEE51100DB2086 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6B2B49327AEE51100DB2086 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,11 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F66F010D2773CE3900212E97 /* ViewController.swift in Sources */,
+				F6B2B49E27AEFFD100DB2086 /* SignupViewController.swift in Sources */,
+				F66F010D2773CE3900212E97 /* SigninViewController.swift in Sources */,
 				F66F01092773CE3900212E97 /* AppDelegate.swift in Sources */,
 				F6D7AEBD278F65B100EEFF49 /* GenieViewController.swift in Sources */,
 				F66F01132773CE3900212E97 /* Genie.xcdatamodeld in Sources */,
 				F66F010B2773CE3900212E97 /* SceneDelegate.swift in Sources */,
+				F6B2B48F27AED7B500DB2086 /* WishViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6B2B49F27AEFFD100DB2086 /* SignupViewController.swift in Sources */,
 				F66F01232773CE3E00212E97 /* GenieTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +322,7 @@
 			files = (
 				F66F012D2773CE3E00212E97 /* GenieUITests.swift in Sources */,
 				F66F012F2773CE3E00212E97 /* GenieUITestsLaunchTests.swift in Sources */,
+				F6B2B4A027AEFFD100DB2086 /* SignupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +643,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F6B2B49427AEED1F00DB2086 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F6B2B49527AEED1F00DB2086 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6B2B49427AEED1F00DB2086 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		F6B2B49727AEED1F00DB2086 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6B2B49427AEED1F00DB2086 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F6B2B49927AEED1F00DB2086 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6B2B49427AEED1F00DB2086 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		F6B2B49B27AEED1F00DB2086 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6B2B49427AEED1F00DB2086 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		F66F01112773CE3900212E97 /* Genie.xcdatamodeld */ = {

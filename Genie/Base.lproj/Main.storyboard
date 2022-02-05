@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Signin Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Genie" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SigninController" customModule="Genie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,6 +94,13 @@
                             <constraint firstItem="YCd-3f-M0C" firstAttribute="leading" secondItem="hMh-Zz-nsr" secondAttribute="leading" id="lHH-Pb-EBG"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="email" destination="eJ8-CA-vdk" id="O8e-mQ-SvH"/>
+                        <outlet property="emailTextField" destination="eJ8-CA-vdk" id="wdi-UK-FGE"/>
+                        <outlet property="emailTextfield" destination="eJ8-CA-vdk" id="V6A-3n-kTE"/>
+                        <outlet property="passwordTextField" destination="lAX-nj-Nua" id="95z-iT-xBc"/>
+                        <outlet property="signInButton" destination="YCd-3f-M0C" id="Drj-hZ-nuX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -1368,7 +1375,7 @@ Green = Wish granted</string>
         <!--Wisher-->
         <scene sceneID="gWl-NN-rKo">
             <objects>
-                <viewController title="Wisher" id="11V-hG-2jH" sceneMemberID="viewController">
+                <viewController title="Wisher" id="11V-hG-2jH" customClass="WishViewController" customModule="Genie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4N0-nc-D7B">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1670,7 +1677,7 @@ Green = Wish granted</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="U8w-on-YFk"/>
+        <segue reference="mMV-4s-cAC"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="GenieLogoTransparent" width="694" height="704"/>
