@@ -44,6 +44,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Continue"/>
                                 <connections>
+                                    <action selector="signInButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PQW-eR-xtv"/>
                                     <segue destination="j4q-el-Vcr" kind="show" id="Ew1-fP-us6"/>
                                 </connections>
                             </button>
@@ -95,9 +96,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="email" destination="eJ8-CA-vdk" id="O8e-mQ-SvH"/>
                         <outlet property="emailTextField" destination="eJ8-CA-vdk" id="wdi-UK-FGE"/>
-                        <outlet property="emailTextfield" destination="eJ8-CA-vdk" id="V6A-3n-kTE"/>
                         <outlet property="passwordTextField" destination="lAX-nj-Nua" id="95z-iT-xBc"/>
                         <outlet property="signInButton" destination="YCd-3f-M0C" id="Drj-hZ-nuX"/>
                     </connections>
