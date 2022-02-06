@@ -28,6 +28,7 @@
 		F6B2B49E27AEFFD100DB2086 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2B49D27AEFFD100DB2086 /* SignupViewController.swift */; };
 		F6B2B49F27AEFFD100DB2086 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2B49D27AEFFD100DB2086 /* SignupViewController.swift */; };
 		F6B2B4A027AEFFD100DB2086 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2B49D27AEFFD100DB2086 /* SignupViewController.swift */; };
+		F6B2B4A227B0238700DB2086 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2B4A127B0238700DB2086 /* TabBarController.swift */; };
 		F6D7AEBD278F65B100EEFF49 /* GenieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7AEBC278F65B100EEFF49 /* GenieViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		F6B2B48E27AED7B500DB2086 /* WishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishViewController.swift; sourceTree = "<group>"; };
 		F6B2B49027AEE51100DB2086 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F6B2B49D27AEFFD100DB2086 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		F6B2B4A127B0238700DB2086 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		F6D7AEBC278F65B100EEFF49 /* GenieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +127,7 @@
 				F66F010A2773CE3900212E97 /* SceneDelegate.swift */,
 				F66F010C2773CE3900212E97 /* SigninViewController.swift */,
 				F66F010E2773CE3900212E97 /* Main.storyboard */,
+				F6B2B4A127B0238700DB2086 /* TabBarController.swift */,
 				F6B2B49D27AEFFD100DB2086 /* SignupViewController.swift */,
 				F6B2B48E27AED7B500DB2086 /* WishViewController.swift */,
 				F6D7AEBC278F65B100EEFF49 /* GenieViewController.swift */,
@@ -298,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6B2B49E27AEFFD100DB2086 /* SignupViewController.swift in Sources */,
+				F6B2B4A227B0238700DB2086 /* TabBarController.swift in Sources */,
 				F66F010D2773CE3900212E97 /* SigninViewController.swift in Sources */,
 				F66F01092773CE3900212E97 /* AppDelegate.swift in Sources */,
 				F6D7AEBD278F65B100EEFF49 /* GenieViewController.swift in Sources */,

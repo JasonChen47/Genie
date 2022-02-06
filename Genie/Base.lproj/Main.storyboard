@@ -45,7 +45,6 @@
                                 <buttonConfiguration key="configuration" style="gray" title="Continue"/>
                                 <connections>
                                     <action selector="signInButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PQW-eR-xtv"/>
-                                    <segue destination="j4q-el-Vcr" kind="show" id="Ew1-fP-us6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRM-lA-XyL">
@@ -110,17 +109,17 @@
             <objects>
                 <viewController title="Genie" id="b9K-Cn-Xwp" customClass="GenieViewController" customModule="Genie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w97-rt-jv0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Genie" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dB5-Jp-hlM">
-                                <rect key="frame" x="136.5" y="20" width="141" height="21"/>
+                                <rect key="frame" x="136.5" y="64" width="141" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Vr-rf-10r">
-                                <rect key="frame" x="20" y="15" width="106.5" height="31"/>
+                                <rect key="frame" x="20" y="59" width="106.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="About"/>
                                 <connections>
@@ -128,13 +127,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a wish to grant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMj-lS-qL7">
-                                <rect key="frame" x="114" y="54" width="186" height="21"/>
+                                <rect key="frame" x="114" y="98" width="186" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fg-sq-gNe">
-                                <rect key="frame" x="143" y="130" width="128" height="31"/>
+                                <rect key="frame" x="143" y="174" width="128" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="I wish I could fly"/>
                                 <connections>
@@ -142,22 +141,22 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBW-Qk-4ev">
-                                <rect key="frame" x="143" y="192" width="128" height="31"/>
+                                <rect key="frame" x="143" y="236" width="128" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="I wish I could fly"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eme-m7-PKs">
-                                <rect key="frame" x="143" y="264" width="128" height="31"/>
+                                <rect key="frame" x="143" y="308" width="128" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="I wish I could fly"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jy8-0O-PHc">
-                                <rect key="frame" x="170" y="333" width="74" height="48"/>
+                                <rect key="frame" x="170" y="377" width="74" height="48"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" image="arrow.clockwise" catalog="system" imagePlacement="top" title="Refresh"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OhT-px-zwe">
-                                <rect key="frame" x="259" y="15" width="135" height="31"/>
+                                <rect key="frame" x="259" y="59" width="135" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="135" id="izG-KN-RXo"/>
                                 </constraints>
@@ -795,7 +794,7 @@ Green = Wish granted</string>
             <objects>
                 <viewController title="Search" id="6dc-f6-pG6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MJQ-XI-F7H">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Browse" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="urZ-AB-bDe">
@@ -805,7 +804,7 @@ Green = Wish granted</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Zjc-tO-Kk0">
-                                <rect key="frame" x="20" y="90" width="374" height="669"/>
+                                <rect key="frame" x="20" y="134" width="374" height="679"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="g7W-8v-i9T">
                                     <size key="itemSize" width="128" height="128"/>
@@ -886,7 +885,7 @@ Green = Wish granted</string>
                                 </connections>
                             </button>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Opj-HJ-otc">
-                                <rect key="frame" x="0.0" y="46" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="90" width="414" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="bSU-dg-ZfC"/>
                                 </constraints>
@@ -917,10 +916,10 @@ Green = Wish granted</string>
             </objects>
             <point key="canvasLocation" x="1734.7826086956522" y="432.58928571428572"/>
         </scene>
-        <!--View Controller-->
+        <!--Signup View Controller-->
         <scene sceneID="Cae-mJ-8sm">
             <objects>
-                <viewController id="nNl-Lu-l8q" sceneMemberID="viewController">
+                <viewController id="nNl-Lu-l8q" customClass="SignupViewController" customModule="Genie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EGm-9h-Egp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1058,14 +1057,14 @@ Green = Wish granted</string>
             <objects>
                 <viewController title="Profile" id="pGk-2L-adc" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rUJ-yL-Dnc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ronald_Robertson" translatesAutoresizingMaskIntoConstraints="NO" id="WSn-Ed-mHS">
-                                <rect key="frame" x="117" y="59" width="180" height="176"/>
+                                <rect key="frame" x="117" y="103" width="180" height="186"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Robert Robertson" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZb-wf-99R">
-                                <rect key="frame" x="20" y="243" width="374" height="30"/>
+                                <rect key="frame" x="20" y="297" width="374" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Ecr-qK-zVO"/>
                                 </constraints>
@@ -1074,7 +1073,7 @@ Green = Wish granted</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biography" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9l-0s-XMH">
-                                <rect key="frame" x="20" y="302" width="81" height="21"/>
+                                <rect key="frame" x="20" y="356" width="81" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="atG-fo-gu7"/>
                                 </constraints>
@@ -1083,7 +1082,7 @@ Green = Wish granted</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sed affert delenit ea. Nam at ferri facete inermis. Eum dicta fuisset phaedrum ei, et amet iuvaret vituperatoribus vix." lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfr-Sf-Fbe">
-                                <rect key="frame" x="20" y="331" width="374" height="103"/>
+                                <rect key="frame" x="20" y="385" width="374" height="103"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="103" id="B3i-je-19n"/>
                                 </constraints>
@@ -1092,7 +1091,7 @@ Green = Wish granted</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Karma points: 12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMx-Ai-6Po">
-                                <rect key="frame" x="20" y="442" width="374" height="21"/>
+                                <rect key="frame" x="20" y="496" width="374" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="VyX-l0-Uq0"/>
                                 </constraints>
@@ -1101,7 +1100,7 @@ Green = Wish granted</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wishes wished: 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWd-co-6Lg">
-                                <rect key="frame" x="20" y="471" width="374" height="21"/>
+                                <rect key="frame" x="20" y="525" width="374" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="D6b-x8-Ac8"/>
                                 </constraints>
@@ -1110,7 +1109,7 @@ Green = Wish granted</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grants granted: 44" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hT-Ct-RmA">
-                                <rect key="frame" x="20" y="500" width="374" height="21"/>
+                                <rect key="frame" x="20" y="554" width="374" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Vdz-rG-FSi"/>
                                 </constraints>
@@ -1376,11 +1375,11 @@ Green = Wish granted</string>
             <objects>
                 <viewController title="Wisher" id="11V-hG-2jH" customClass="WishViewController" customModule="Genie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4N0-nc-D7B">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wisher" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZ5-bB-dWS">
-                                <rect key="frame" x="136.5" y="20" width="141" height="21"/>
+                                <rect key="frame" x="136.5" y="64" width="141" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1397,30 +1396,30 @@ Green = Wish granted</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I wish..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4Z-Bn-V7N">
-                                <rect key="frame" x="22" y="90" width="121" height="21"/>
+                                <rect key="frame" x="22" y="134" width="121" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Think big. And it could be something that helps others also." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6C-Hc-AFQ">
-                                <rect key="frame" x="22" y="164" width="326" height="15"/>
+                                <rect key="frame" x="22" y="208" width="326" height="15"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type your wish here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X0C-6M-dHl">
-                                <rect key="frame" x="20" y="122" width="374" height="34"/>
+                                <rect key="frame" x="20" y="166" width="374" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="And just some details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="br6-tB-yXs">
-                                <rect key="frame" x="24" y="187" width="163" height="21"/>
+                                <rect key="frame" x="24" y="231" width="163" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anything that can help your genie grant your wish" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="47U-zP-ufk">
-                                <rect key="frame" x="24" y="261" width="272" height="15"/>
+                                <rect key="frame" x="24" y="305" width="272" height="15"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1432,12 +1431,12 @@ Green = Wish granted</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add any relevant details here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nek-In-7N4">
-                                <rect key="frame" x="22" y="219" width="374" height="34"/>
+                                <rect key="frame" x="22" y="263" width="374" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lap-QO-axM">
-                                <rect key="frame" x="106" y="326" width="202" height="31"/>
+                                <rect key="frame" x="106" y="370" width="202" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Send to a Genie"/>
                                 <connections>
@@ -1574,14 +1573,14 @@ Green = Wish granted</string>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Vgi-4G-GVD">
-                                        <rect key="frame" x="0.0" y="44.5" width="374" height="43"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="374" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Vgi-4G-GVD" id="NBv-0r-crb">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I wish I could fly" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7O-KX-mYh">
-                                                    <rect key="frame" x="20" y="11" width="121" height="21"/>
+                                                    <rect key="frame" x="20" y="11" width="121" height="21.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -1595,7 +1594,7 @@ Green = Wish granted</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="9QI-NU-khA">
-                                        <rect key="frame" x="0.0" y="87.5" width="374" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="88" width="374" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9QI-NU-khA" id="9UP-oo-B6b">
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
@@ -1603,7 +1602,7 @@ Green = Wish granted</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="8nA-bt-L1E">
-                                        <rect key="frame" x="0.0" y="131" width="374" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="131.5" width="374" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8nA-bt-L1E" id="FgO-rT-N2a">
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
@@ -1611,7 +1610,7 @@ Green = Wish granted</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="49u-gr-uaY">
-                                        <rect key="frame" x="0.0" y="174.5" width="374" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="175" width="374" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="49u-gr-uaY" id="hsR-nR-PcQ">
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
@@ -1656,7 +1655,7 @@ Green = Wish granted</string>
         <!--Tab Bar Controller-->
         <scene sceneID="hFF-lC-s4E">
             <objects>
-                <tabBarController modalPresentationStyle="fullScreen" id="j4q-el-Vcr" sceneMemberID="viewController">
+                <tabBarController modalPresentationStyle="fullScreen" id="j4q-el-Vcr" customClass="TabBarController" customModule="Genie" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="zhe-87-8jy"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TvY-eZ-kcL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>

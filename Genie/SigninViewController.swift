@@ -80,6 +80,8 @@ class SigninController: UIViewController {
                 multiFactorString += " "
               }
               // ...
+                let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "TabBarController") as? TabBarController
+                self.navigationController?.pushViewController(vc!, animated: true)
             }
         }
     }
