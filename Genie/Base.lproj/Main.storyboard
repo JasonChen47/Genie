@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Signin Controller-->
+        <!--Signin View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="SigninController" customModule="Genie" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SigninViewController" id="BYZ-38-t0r" customClass="SigninViewController" customModule="Genie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -191,9 +191,6 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Genie" image="wand.and.stars" catalog="system" id="TTa-CI-m8A"/>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="boolean" keyPath="@IBAction func myUnwindAction(unwindSegue: UIStoryboardSegue)" value="YES"/>
-                    </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="view" destination="w97-rt-jv0" id="J0z-Sw-Cnr"/>
                     </connections>
@@ -948,6 +945,9 @@ Green = Wish granted</string>
                                 <rect key="frame" x="20" y="345" width="374" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Create Account"/>
+                                <connections>
+                                    <action selector="createAccountButtonTapped:" destination="nNl-Lu-l8q" eventType="touchUpInside" id="qml-Zi-Jpm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pir-am-1m7">
                                 <rect key="frame" x="20" y="384" width="374" height="31"/>
@@ -967,30 +967,38 @@ Green = Wish granted</string>
                         <viewLayoutGuide key="safeArea" id="NBb-co-pv6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Z8l-xs-EaG" firstAttribute="top" secondItem="NBb-co-pv6" secondAttribute="top" constant="121" id="01m-v1-gnO"/>
-                            <constraint firstItem="qkE-7V-GPY" firstAttribute="leading" secondItem="T71-iP-gCe" secondAttribute="leading" id="0B0-XD-8oV"/>
-                            <constraint firstItem="5kP-sE-mD2" firstAttribute="trailing" secondItem="ehl-ce-cVH" secondAttribute="trailing" id="4VD-Ib-KIz"/>
-                            <constraint firstItem="5kP-sE-mD2" firstAttribute="leading" secondItem="EGm-9h-Egp" secondAttribute="leadingMargin" id="6q4-zO-waX"/>
-                            <constraint firstItem="Z8l-xs-EaG" firstAttribute="centerX" secondItem="5kP-sE-mD2" secondAttribute="centerX" id="Ac0-zR-MS0"/>
-                            <constraint firstItem="dXC-Th-vNf" firstAttribute="leading" secondItem="pir-am-1m7" secondAttribute="leading" id="CRS-YS-YBp"/>
-                            <constraint firstItem="Z8l-xs-EaG" firstAttribute="leading" secondItem="NBb-co-pv6" secondAttribute="leading" constant="89" id="Cqs-yM-8ZV"/>
-                            <constraint firstItem="T71-iP-gCe" firstAttribute="top" secondItem="qkE-7V-GPY" secondAttribute="bottom" constant="8" symbolic="YES" id="ERk-St-CCW"/>
-                            <constraint firstItem="5kP-sE-mD2" firstAttribute="trailing" secondItem="EGm-9h-Egp" secondAttribute="trailingMargin" id="HA5-xI-496"/>
-                            <constraint firstItem="qkE-7V-GPY" firstAttribute="top" secondItem="ehl-ce-cVH" secondAttribute="bottom" constant="8" symbolic="YES" id="Hgp-Bh-jcu"/>
-                            <constraint firstItem="pir-am-1m7" firstAttribute="top" secondItem="dXC-Th-vNf" secondAttribute="bottom" constant="8" symbolic="YES" id="J3Q-qf-67x"/>
-                            <constraint firstItem="ehl-ce-cVH" firstAttribute="leading" secondItem="qkE-7V-GPY" secondAttribute="leading" id="MwS-Xq-ijO"/>
-                            <constraint firstItem="qkE-7V-GPY" firstAttribute="trailing" secondItem="T71-iP-gCe" secondAttribute="trailing" id="Xuv-B0-9E4"/>
-                            <constraint firstItem="5kP-sE-mD2" firstAttribute="leading" secondItem="ehl-ce-cVH" secondAttribute="leading" id="Z6g-8W-Aa8"/>
-                            <constraint firstItem="T71-iP-gCe" firstAttribute="leading" secondItem="dXC-Th-vNf" secondAttribute="leading" id="aRK-9c-lJm"/>
-                            <constraint firstItem="ehl-ce-cVH" firstAttribute="trailing" secondItem="qkE-7V-GPY" secondAttribute="trailing" id="dRO-n1-oYZ"/>
-                            <constraint firstItem="5kP-sE-mD2" firstAttribute="top" secondItem="Z8l-xs-EaG" secondAttribute="bottom" constant="8" symbolic="YES" id="f4F-q0-8GC"/>
-                            <constraint firstItem="dXC-Th-vNf" firstAttribute="trailing" secondItem="pir-am-1m7" secondAttribute="trailing" id="h5K-01-mio"/>
-                            <constraint firstItem="ehl-ce-cVH" firstAttribute="top" secondItem="5kP-sE-mD2" secondAttribute="bottom" constant="8" symbolic="YES" id="ka9-BM-SvI"/>
-                            <constraint firstItem="T71-iP-gCe" firstAttribute="trailing" secondItem="dXC-Th-vNf" secondAttribute="trailing" id="uAv-nP-5Uk"/>
-                            <constraint firstItem="dXC-Th-vNf" firstAttribute="top" secondItem="T71-iP-gCe" secondAttribute="bottom" constant="8" symbolic="YES" id="ueG-h1-o0K"/>
+                            <constraint firstItem="5kP-sE-mD2" firstAttribute="trailing" secondItem="ehl-ce-cVH" secondAttribute="trailing" id="0da-pE-miV"/>
+                            <constraint firstItem="qkE-7V-GPY" firstAttribute="top" secondItem="ehl-ce-cVH" secondAttribute="bottom" constant="8" symbolic="YES" id="E2p-6o-sD6"/>
+                            <constraint firstItem="ehl-ce-cVH" firstAttribute="top" secondItem="5kP-sE-mD2" secondAttribute="bottom" constant="8" symbolic="YES" id="ENP-BI-h46"/>
+                            <constraint firstItem="ehl-ce-cVH" firstAttribute="leading" secondItem="qkE-7V-GPY" secondAttribute="leading" id="GJl-K4-oZ4"/>
+                            <constraint firstItem="Z8l-xs-EaG" firstAttribute="leading" secondItem="NBb-co-pv6" secondAttribute="leading" constant="89" id="IJt-kW-MSJ"/>
+                            <constraint firstItem="pir-am-1m7" firstAttribute="top" secondItem="dXC-Th-vNf" secondAttribute="bottom" constant="8" symbolic="YES" id="JhT-kZ-St6"/>
+                            <constraint firstItem="5kP-sE-mD2" firstAttribute="trailing" secondItem="EGm-9h-Egp" secondAttribute="trailingMargin" id="Knh-jA-yeG"/>
+                            <constraint firstItem="Z8l-xs-EaG" firstAttribute="centerX" secondItem="5kP-sE-mD2" secondAttribute="centerX" id="MOL-8w-kXi"/>
+                            <constraint firstItem="5kP-sE-mD2" firstAttribute="leading" secondItem="ehl-ce-cVH" secondAttribute="leading" id="Ne5-pP-8Yk"/>
+                            <constraint firstItem="T71-iP-gCe" firstAttribute="leading" secondItem="dXC-Th-vNf" secondAttribute="leading" id="PBb-De-gNk"/>
+                            <constraint firstItem="dXC-Th-vNf" firstAttribute="trailing" secondItem="pir-am-1m7" secondAttribute="trailing" id="Q9J-VX-Dav"/>
+                            <constraint firstItem="qkE-7V-GPY" firstAttribute="leading" secondItem="T71-iP-gCe" secondAttribute="leading" id="Suu-Nm-Gnm"/>
+                            <constraint firstItem="5kP-sE-mD2" firstAttribute="leading" secondItem="EGm-9h-Egp" secondAttribute="leadingMargin" id="Z7e-WM-xma"/>
+                            <constraint firstItem="T71-iP-gCe" firstAttribute="top" secondItem="qkE-7V-GPY" secondAttribute="bottom" constant="8" symbolic="YES" id="ZX0-dm-xvY"/>
+                            <constraint firstItem="T71-iP-gCe" firstAttribute="trailing" secondItem="dXC-Th-vNf" secondAttribute="trailing" id="alb-JN-oNo"/>
+                            <constraint firstItem="5kP-sE-mD2" firstAttribute="top" secondItem="Z8l-xs-EaG" secondAttribute="bottom" constant="8" symbolic="YES" id="dgo-bc-aDc"/>
+                            <constraint firstItem="Z8l-xs-EaG" firstAttribute="top" secondItem="NBb-co-pv6" secondAttribute="top" constant="121" id="j9F-lr-bQy"/>
+                            <constraint firstItem="dXC-Th-vNf" firstAttribute="leading" secondItem="pir-am-1m7" secondAttribute="leading" id="mGO-Q5-ScM"/>
+                            <constraint firstItem="dXC-Th-vNf" firstAttribute="top" secondItem="T71-iP-gCe" secondAttribute="bottom" constant="8" symbolic="YES" id="n7E-P0-Czb"/>
+                            <constraint firstItem="ehl-ce-cVH" firstAttribute="trailing" secondItem="qkE-7V-GPY" secondAttribute="trailing" id="uKj-NV-did"/>
+                            <constraint firstItem="qkE-7V-GPY" firstAttribute="trailing" secondItem="T71-iP-gCe" secondAttribute="trailing" id="yKh-1l-39a"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3Hn-U7-MIy"/>
+                    <connections>
+                        <outlet property="confirmPasswordTextField" destination="T71-iP-gCe" id="4Fc-pj-U1Y"/>
+                        <outlet property="createAccountButton" destination="dXC-Th-vNf" id="okx-Ad-UIF"/>
+                        <outlet property="emailTextField" destination="ehl-ce-cVH" id="QKr-zr-uUz"/>
+                        <outlet property="nameTextField" destination="5kP-sE-mD2" id="Fx7-cK-1Tn"/>
+                        <outlet property="passwordTextField" destination="qkE-7V-GPY" id="E94-0p-VO1"/>
+                        <outlet property="signInButton" destination="pir-am-1m7" id="i8W-KV-lQh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wT0-bY-nk1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="zdj-AJ-KNd" userLabel="Exit" sceneMemberID="exit"/>
@@ -1373,7 +1381,7 @@ Green = Wish granted</string>
         <!--Wisher-->
         <scene sceneID="gWl-NN-rKo">
             <objects>
-                <viewController title="Wisher" id="11V-hG-2jH" customClass="WishViewController" customModule="Genie" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WishViewController" title="Wisher" id="11V-hG-2jH" customClass="WishViewController" customModule="Genie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4N0-nc-D7B">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1573,14 +1581,14 @@ Green = Wish granted</string>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Vgi-4G-GVD">
-                                        <rect key="frame" x="0.0" y="44.5" width="374" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="374" height="43"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Vgi-4G-GVD" id="NBv-0r-crb">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I wish I could fly" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7O-KX-mYh">
-                                                    <rect key="frame" x="20" y="11" width="121" height="21.5"/>
+                                                    <rect key="frame" x="20" y="11" width="121" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -1594,7 +1602,7 @@ Green = Wish granted</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="9QI-NU-khA">
-                                        <rect key="frame" x="0.0" y="88" width="374" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="87.5" width="374" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9QI-NU-khA" id="9UP-oo-B6b">
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
@@ -1602,7 +1610,7 @@ Green = Wish granted</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="8nA-bt-L1E">
-                                        <rect key="frame" x="0.0" y="131.5" width="374" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="131" width="374" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8nA-bt-L1E" id="FgO-rT-N2a">
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
@@ -1610,7 +1618,7 @@ Green = Wish granted</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="49u-gr-uaY">
-                                        <rect key="frame" x="0.0" y="175" width="374" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="174.5" width="374" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="49u-gr-uaY" id="hsR-nR-PcQ">
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
@@ -1655,7 +1663,7 @@ Green = Wish granted</string>
         <!--Tab Bar Controller-->
         <scene sceneID="hFF-lC-s4E">
             <objects>
-                <tabBarController modalPresentationStyle="fullScreen" id="j4q-el-Vcr" customClass="TabBarController" customModule="Genie" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarController" modalPresentationStyle="fullScreen" id="j4q-el-Vcr" customClass="TabBarController" customModule="Genie" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="zhe-87-8jy"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TvY-eZ-kcL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>

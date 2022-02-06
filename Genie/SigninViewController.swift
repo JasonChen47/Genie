@@ -9,7 +9,7 @@ import UIKit
 import Firebase
 import FirebaseCore
 
-class SigninController: UIViewController {
+class SigninViewController: UIViewController {
     
     var email: String?
     var password: String?
@@ -51,9 +51,16 @@ class SigninController: UIViewController {
                 print("Error: \(error.localizedDescription)")
             }
           } else {
-            print("User signs in successfully")
-            let userInfo = Auth.auth().currentUser
-            let email = userInfo?.email
+              print("User signs in successfully")
+              let userInfo = Auth.auth().currentUser
+              let email = userInfo?.email
+              
+              // Instantiate tabbarcontroller
+              let storyboard = UIStoryboard(name: "Main", bundle: nil)
+              let mainTabBarController = storyboard.instantiateViewController(identifier: "TabBarController")
+              (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
+              print("tried to push screen")
+            
           }
         }
     }
@@ -66,22 +73,22 @@ class SigninController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         handle = Auth.auth().addStateDidChangeListener { auth, user in
-          // ...
+          // WILL RUN IF BUTTON IS PRESSED AND USER/PASS IS CORRECT
             if let user = user {
+                
               // The user's ID, unique to the Firebase project.
               // Do NOT use this value to authenticate with your backend server,
               // if you have one. Use getTokenWithCompletion:completion: instead.
-              let uid = user.uid
-              let email = user.email
-              let photoURL = user.photoURL
-              var multiFactorString = "MultiFactor: "
-              for info in user.multiFactor.enrolledFactors {
+                let uid = user.uid
+                let email = user.email
+                let photoURL = user.photoURL
+                var multiFactorString = "MultiFactor: "
+                for info in user.multiFactor.enrolledFactors {
                 multiFactorString += info.displayName ?? "[DispayName]"
                 multiFactorString += " "
-              }
-              // ...
-                let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "TabBarController") as? TabBarController
-                self.navigationController?.pushViewController(vc!, animated: true)
+                }
+                // ...
+                
             }
         }
     }
